@@ -23,10 +23,6 @@ public class Task {
     public void setConcluida(boolean concluida){
         this.concluida = concluida;
     }
-
-    public String ToString (){
-        return "[" + (concluida ? "✔": "✘") + "]" + descricao + "(Criada em: " + dataCriacao + ")";
-    }
 }
 
 
